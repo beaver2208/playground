@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Playground</title>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+        <a href="#" class="collapse" title="collapse">Hide</a>
+    <aside>
+        <p>Add your own tab</p>
+        <form name="newTab">
+            <div class="input-group">
+                <label for="text">Index</label>
+                <input type="text" id="index">
+            </div>
+            <div class="input-group">
+                <label for="title">Title</label>
+                <input type="text" id="title">
+            </div>
+            <div class="input-group">
+                <label for="html">HTML content</label>
+                <textarea id="html"></textarea>
+            </div>
+            <button id='addBtn'>ADD</button>
+            <button id='editBtn'>EDIT</button>
+            <button id='resetBtn'>RESET</button>
+
+        </form>
+    </aside>
+    <main>
+        <ul class="tabs">
+            <li class="tab active-tab" name="One">One</li>
+            <li class="tab" name="Two">Two</li>
+            <li class="tab" name="Three">Three</li>
+            <li class="tab" name="Four">Four</li>
+        </ul>
+        <div class="container">
+           
+        </div>
+    </main>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
